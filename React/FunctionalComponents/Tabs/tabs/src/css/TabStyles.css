@@ -1,0 +1,34 @@
+body {
+    background: black;
+    color: white;
+}
+
+.tabStyles {
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+
+.tabStyles:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    background-color: yellow;
+    color: black;
+}
+
+.contentStyle {
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px black inset;
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+}
+
+.contentBox {
+    margin-left: 20px;
+}
